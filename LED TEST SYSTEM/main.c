@@ -1,22 +1,17 @@
-// TODO INFO HERE - ORIGINAL SOURCE - REDIRECT
-// TODO GNU LICENSE HERE
-//
-
 #include "main.h"
 
 // Global Varibles
 int exit_val;
 int _cnt;
 
-// Prototypes
+/* Prototypes */
 void setup();
 void loop();
 void led();
 
-// TODO hide main in seperate file
 int main(int argc, char *argv[])
 {
-	exit_val = 0;
+    exit_val = 0;
 	_cnt = -1;
 	
 	for(int i = 0; i < argc; i++)
@@ -24,7 +19,6 @@ int main(int argc, char *argv[])
 		if( i == 1)
 			_cnt = atoi(argv[i]);
 	}
-  // DEBUG FIX flush buffers
 	fflush(NULL);
 	
 	setup();
@@ -63,7 +57,6 @@ int main(int argc, char *argv[])
 	return exit_val;
 }
 
-// TODO move defines
 // Blinks a RPI B+ GPIO J8 Pin 11 
 // ( which is GPIO Pin 17)
 #define LED_1 RPI_BPLUS_GPIO_J8_11
