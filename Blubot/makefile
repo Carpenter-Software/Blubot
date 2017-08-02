@@ -11,8 +11,7 @@
 all: Blubot
 
 # Local Libraries 
-# Everything in same directory (~/Desktop/Blubot/)
-# or use option: -lbcm2835
+# Option: -lbcm2835
 LIBA = libbcm2835.a 
 LIBH = bcm2835.h
 
