@@ -32,6 +32,9 @@ Robotic software development
 
 - The goal of this project is to interface the I2C protocol between the MD25 and BCM2835 Library.
 
+**Workflow**
+
+- The platform is the Raspberry Pi (RPI). I develop on the RPI 3 B+ and then transfer the software to a RPI Zero. The RPI Zero used on the Blubot robot to further test the applicabilty. 
 
 **Development Update:**
 
