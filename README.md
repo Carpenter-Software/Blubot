@@ -35,5 +35,6 @@ Robotic software development
 
 **Development Update:**
 
+- 20170804: BlinkTest
 - 20170801: Experimental Stage
 - 20170801: Start date
