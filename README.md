@@ -34,7 +34,7 @@ Robotic software development
 
 **Workflow**
 
-- The platform is the Raspberry Pi (RPI). I develop on the RPI 3 B+ and then transfer the software to a RPI Zero. The RPI Zero used on the Blubot robot to further test the applicabilty. 
+- The platform is the Raspberry Pi (RPI). I develop on the RPI 3 B+ and then transfer the software to a RPI Zero. The RPI Zero is used on the Blubot robot to further test the applicabilty of the software. 
 
 **Development Update:**
 
